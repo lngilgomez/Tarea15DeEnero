@@ -1,0 +1,44 @@
+
+                p{
+                    color:chartreuse
+                }
+
+                #contenidoPrincipal{
+                    color:chocolate;
+                }
+
+                .claseParrafo{
+                    color:crimson;
+                }
+
+                .rojo{
+                    
+                    color:red;
+
+                }
+
+                body ul, body h2{
+
+                    color: blueviolet;
+                }
+
+                [data-vegetable]{
+
+                    color: green;
+
+                }
+
+                [data-vegetable="liquid"]{
+
+                    background-color: goldenrod;
+                }
+
+                [data-vegetable~="spicy"]{
+                    
+                    color: red;
+                }
+
+                [data-vegetable ~="solid"]{
+
+                    color: rgb(255, 120, 10);
+                }
